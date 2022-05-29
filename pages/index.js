@@ -14,7 +14,14 @@ export default function Home() {
         </title>
       </Head>
       
+      
       <Navbar/>
+
+      
+      <p>Hello World</p><p>Hello World</p><p>Hello World</p>
+      
+
+      
       
     </>
   )
