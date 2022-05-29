@@ -4,7 +4,13 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      <p>Hello</p>
+      <Head>
+        <title>
+          Hack-A-Duck 2.0
+        </title>
+      </Head>
+
+      
     </>
   )
 }
