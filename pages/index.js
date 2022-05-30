@@ -53,14 +53,13 @@ export default function Home() {
       
       <Navbar/>
 
-      {/* <Image src={bit} height="100" width="100" quality={100}></Image> */}
 
       <div className='come flex flex-row mb-[50vh] mt-[40vh] ml-[-7vw] md:ml-[3vw] md:text-center font-extrabold text-7xl md:text-9xl break-words'>Hack-A-Duck 2.0 🦆</div>
       
       <div class="flex items-center justify-center w-screen h-[115vh] mb-12 bg-fixed bg-center bg-cover bg-primary"> {/*bg-[url('../public/psyberduck.png')]*/}
         <div class="p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl">
           Welcome to my site!
-        </div>
+        </div> 
       </div>
       
       
