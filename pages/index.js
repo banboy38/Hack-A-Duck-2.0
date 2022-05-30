@@ -37,7 +37,7 @@ export default function Home() {
       });
 
       anime({
-
+        
       })
       
     }, 0);
@@ -54,10 +54,17 @@ export default function Home() {
       <Navbar/>
 
 
-      <div className='come mb-[50vh] mt-[40vh] ml-[7vw] md:ml-[3vw]  font-extrabold text-7xl md:text-9xl break-words'>Hack-A-Duck 2.0 <p><Image height="150" width="100" src={psyduck}/></p></div>
       
-      <div class="flex items-start p-[2rem] md:p-[3rem] w-screen h-[100vh] mb-12 bg-fixed bg-center bg-cover bg-primary"> {/*bg-[url('../public/psyberduck.png')]*/}
-        <div class="p-5 text-2xl text-white  bg-purple-300 bg-opacity-50 rounded-xl">
+
+      <div className='come p-[2rem] md:p-[3rem] w-screen z-0 h-screen flex flex-col justify-center place-items-center'>
+
+        <div className='md:mb-[4rem] font-extrabold mt-[4rem] text-7xl md:text-9xl break-words'>Hack-A-Duck 2.0 <Image placeholder='blur' height="120" width="100" src={psyduck}/></div>
+        <a href="#about"><BsChevronDoubleDown className='fadedown' color='#F2F2F2' fontSize="10rem"/></a>      
+
+      </div>      
+      
+      <div id="about" class="flex items-start p-[2rem] md:p-[3rem] w-screen h-[110vh] bg-fixed bg-center bg-cover bg-primary"> {/*bg-[url('../public/psyberduck.png')]*/}
+        <div class="text-7xl md:text-9xl font-extrabold break-words">
           Welcome to my site!
         </div> 
       </div>

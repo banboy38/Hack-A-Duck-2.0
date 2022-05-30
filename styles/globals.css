@@ -4,6 +4,8 @@
 
 html,
 body {
+
+  scroll-behavior: smooth;
   background: #6600cc;
   color: #F2F2F2;
   min-height : 300vh;
@@ -52,4 +54,37 @@ a {
 ::selection {
   color: #121212;
   background: #F2F2F2;
+}
+
+.fadedown{
+  transform: translateY(-250px);
+
+  opacity: 0;
+  
+  animation: slidein 1.5s ease-in-out 1.5s forwards, pulse 3s ease-in-out 3s infinite forwards;
+  /* animation: pulse 3s ease-in-out 3s infinite forwards; */
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.0625;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  from {    
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
