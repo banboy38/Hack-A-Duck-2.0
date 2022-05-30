@@ -63,9 +63,13 @@ export default function Home() {
 
       </div>      
       
-      <div id="about" class="flex items-start p-[2rem] md:p-[3rem] w-screen h-[110vh] bg-fixed bg-center bg-cover bg-primary"> {/*bg-[url('../public/psyberduck.png')]*/}
+      <div id="about" class="flex flex-col p-[2rem] md:p-[3rem] w-screen h-[110vh] bg-primary"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
         <div class="text-7xl md:text-9xl font-extrabold break-words">
-          Welcome to my site!
+          Bhaiya, yeh kya hai?
+        </div>
+
+        <div class="text-3xl md:text-5xl mt-5 font-extrabold break-words">
+          Hack 
         </div> 
       </div>
       
