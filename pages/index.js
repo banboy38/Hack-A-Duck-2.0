@@ -10,6 +10,8 @@ import { useEffect, useState } from 'react'
 
 import anime from 'animejs'
 
+import {BsChevronDoubleDown} from 'react-icons/bs'
+
 export default function Home() {
   const router = useRouter()
 
