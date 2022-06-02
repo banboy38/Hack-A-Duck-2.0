@@ -21,7 +21,8 @@ export default function About() {
         <div className="flex flex-col"><img src='./bit.png' className='basis-3/4 border-1 rounded-md mt-7 mb-- bg-contain bg-center max-w-xl ml-5'>
             </img><span className='min-h-48 basis-1/3 border-1 bg-right flex-row-reverse rounded-md'>Detail card</span></div>
         </div>
-        <Namecard/>
+
+        <Namecard name="Anirban Aditya Halder" github="banboy38" linkedin="anirban-aditya-halder" insta="banboy38" position="Executive Member, SDS"/>
     </>
     </>
   )

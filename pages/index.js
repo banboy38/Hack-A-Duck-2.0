@@ -64,7 +64,7 @@ export default function Home() {
       </div>
       
       <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about.png')]"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
-        <div class="text-7xl md:text-8xl text-cyan-300 font-extrabold break-words">
+        <div className="text-7xl md:text-8xl text-cyan-300 font-extrabold break-words">
           "Bhaiya, yeh kya hai?"
         </div>
 
