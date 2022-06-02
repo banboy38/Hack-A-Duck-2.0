@@ -43,7 +43,7 @@ export default function Organizers(){
             <div className='mt-[-5rem]  mb-[5rem] md:mt-[3.7rem] come p-[2rem] md:p-[3rem] w-screen z-0 h-screen flex flex-col justify-center place-items-center'>
       
 
-                <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[4rem] text-6xl md:text-8xl break-words'>Organizers 📑</div>
+                <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[4rem] text-7xl md:text-8xl break-words'>Organizers 📑</div>
                 <a href="#organizers"><BsChevronDoubleDown className='fadedown hidden sm:block' color='#F2F2F2' fontSize="10rem"/></a>      
 
             </div>
@@ -57,15 +57,15 @@ export default function Organizers(){
                     
                     <Namecard name="Tanmay Sinha" github="tanmay-sinha" linkedin="tanmay-sinha-bit" insta="tanmay.sinha0509" position="President" club="IET" dp='tanmay.jpg'/>
                     <Namecard name="Akshat Dubey" github="dubeyakshat07" linkedin="akshat-dubey-5983b2185" insta="" position="President" club="SDS" dp='akshat.jpg'/>
-                    <Namecard name="Krishna Pratap Singh" github="" linkedin="krishna-pratap-singh-3a6423167" insta="" position="Director" club="IET" dp='krishna.jpg'/>
-
                     <Namecard name="Rohit Rathore" github="rohit0307" linkedin="rohit-singh-rathaur" insta="" position="Joint President" club="SDS" dp='rohit.jpg'/>
+
                     <Namecard name="Vaibhav Raj Singh" github="vaibhavrajsingh2001" linkedin="vaibhavrajsingh2001" insta="vaibhavrajsingh2001" position="Vice President" club="IET" dp='vaibhav.jpg'/>
                     <Namecard name="Swapnil Ghosh" github="GOSHROW" linkedin="goshrow" insta="doing.goshrow.tech" position="Vice President" club="IET" dp='swapnil.jpg'/>
-
-                    <div className=' hidden xl:block'></div>
                     <Namecard name="Aryan Khandelwal" github="aryan29" linkedin="aryan-khandelwal29" insta="" position="Vice President" club="IET" dp='aryan.jpg'/>
                     
+
+                    <div className=' hidden xl:block'></div>
+                    <Namecard name="Krishna Pratap Singh" github="" linkedin="krishna-pratap-singh-3a6423167" insta="" position="Director" club="IET" dp='krishna.jpg'/>
                     
 
                     

@@ -102,7 +102,7 @@ export default function Home() {
         <div className="text-2xl md:text-4xl ml-[4px] mr-[5rem] md:ml-[10px] mt-5 md:mt-10 font-extrabold break-normal">
           <p>Hack-A-Duck 2.0 is the second edition of the premier hackathon organized by Psyberduck. This time, we're collaborating with IET and Society for Data Science, BIT Mesra.</p>
           <p className='mt-5'>So calling all the tech enthusiasts out there, this is the chance to enrich your technical ingenuity through a gripping project with highly qualified mentors and awesome cash prizes. There's a theme for every discipline, so no need to worry about being left out!</p>          
-          <p className='mt-[5rem] md:mt-[7rem] text-cyan-300  hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./themes">Checkout the Themes!</a></p>
+          <p className='mt-[5rem] md:mt-[7rem]  hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./themes">Checkout the Themes!</a></p>
         </div>
         
         
