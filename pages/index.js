@@ -56,14 +56,14 @@ export default function Home() {
       
       <div className='come mt-[-5rem]  mb-[5rem] md:mt-[-1rem] p-[2rem] md:p-[3rem] z-0 w-screen  h-screen flex flex-col justify-center place-items-center '>
 
-        <div className=' flex flex-row w-[70%] ml-[-6rem] md:ml-0 md:justify-center items-center'><div className='md:ml-[4.8rem] mt-[1.5rem] mr-[5px] md:mr-[5rem]'><Image placeholder='blur' height="100" width="150" quality="100" src={iet}/></div><div><Image placeholder='blur' height="120" width="120" quality="100" src={bit}/></div><div className='md:ml-[3.5rem]'><Image placeholder='blur' quality="100" height="100" width="250" src={sds}/></div></div>
+        <div className=' flex flex-row w-[70%] ml-[-6rem] md:ml-0 justify-start md:justify-center items-center'><div className='md:ml-[4.8rem] mt-[1.5rem] mr-[5px] md:mr-[5rem]'><Image placeholder='blur' height="100" width="150" quality="100" src={iet}/></div><div><Image placeholder='blur' height="120" width="120" quality="100" src={bit}/></div><div className='md:ml-[3.5rem]'><Image placeholder='blur' quality="100" height="100" width="250" src={sds}/></div></div>
         
           <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[4rem] text-7xl md:text-8xl break-words'>Hack-A-Duck 2.0 <Image placeholder='blur' height="120" width="100" src={psyduck}/></div>
           <a href="#about"><BsChevronDoubleDown className='fadedown hidden sm:block' color='#F2F2F2' fontSize="10rem"/></a>      
         
       </div>
       
-      <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about.png')]"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
+      <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about2.png')] sm:bg-[url('../public/about.png')]"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
         <div className="text-7xl md:text-8xl text-cyan-300 font-extrabold break-words">
           "Bhaiya, yeh kya hai?"
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="text-2xl md:text-4xl ml-[4px] mr-[5rem] md:ml-[10px] mt-5 md:mt-10 font-extrabold break-normal">
           <p>Hack-A-Duck 2.0 is the second edition of the premier hackathon organized by Psyberduck. This time, we're collaborating with IET and Society for Data Science, BIT Mesra.</p>
           <p className='mt-5'>So calling all the tech enthusiasts out there, this is the chance to enrich your technical ingenuity through a gripping project with highly qualified mentors and awesome cash prizes. There's a theme for every discipline, so no need to worry about being left out!</p>          
-          <p className='mt-[5rem] md:mt-[7rem] text-[#fc82c5] hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl flex md:justify-end'><IoCaretForward className='md:mt-[5px]' color='#fc82c5'/><Link href="./themes">Checkout the Themes!</Link></p>
+          <p className='mt-[5rem] md:mt-[7rem] text-fuchsia-400 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl flex md:justify-end'><IoCaretForward className='md:mt-[5px]' color='#e879f9'/><a href="./themes">Checkout the Themes!</a></p>
         </div>
         
         

@@ -40,10 +40,6 @@ export default function Themes() {
         ],
         easing: 'easeOutElastic(1, .8)',
       });
-
-      anime({
-        
-      })
       
     }, 0);
 
@@ -70,6 +66,8 @@ export default function Themes() {
       <div id="themes" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
 
         <ThemeCard heading="Web Developement" content={webdev()}/>
+        <ThemeCard heading="Machine Learning" content={webdev()}/>
+        <ThemeCard heading="Blockchain" content={webdev()}/>
 
       </div>
 

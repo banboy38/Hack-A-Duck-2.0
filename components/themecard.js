@@ -12,7 +12,7 @@ export default function ThemeCard({heading, content}){
     if(browser){
         return(
             <>
-                <div className="bg-secondaryAccent hover:scale-[1.03] ease-in-out duration-500 rounded-md p-5 w-[80%] shadow-lg min-h-[20rem]">
+                <div className="bg-[url('../public/theme.png')] hover:scale-[1.03] my-14 break-all ease-in-out duration-500 rounded-md p-5 w-[80%] shadow-lg min-h-[20rem]">
                     <p className="font-extrabold text-4xl md:text-6xl">{heading}</p>
                     <p className="text-2xl md:text-4xl ml-[4px]  md:ml-[10px] mt-2 md:mt-5 font-extrabold break-normal">
                         {content}
