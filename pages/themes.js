@@ -28,8 +28,37 @@ export default function Themes() {
       </>
     )
   }
+
+  const ai = () => {
+    return(
+      <>
+       <p className='italic'>"AI is going to change the world more than anything in the history of mankind. More than electricity." - Dr. Kai- Fu Lee</p>
+        <p className='mt-5'>The term "AI" means a programme which mimics human cognition. It is the ability of a computer program to think and learn. 
+        At present we use the term AI for successfully understanding human speech, competing at a high level in strategic game system. 
+        AI has many applications in almost every field, which seems positive. We use Alexa , Google home even which are quite intuitive to the instructions and provide almost accurate result , also playing a very important role in pharmaceuticals.</p>
+
+        <p className='mt-5'>Predicting the future isn't magic, it's Artificial intelligence.</p>
+      </>
+    )
+  }
+
+  const block = () => {
+    return(
+      <>
+        <p className='italic'>“The Internet is programmable information. The blockchain is programmable scarcity.” – Balaji Srinivasan</p>
+        <p className='mt-5'>
+          A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems.
+          The applications of Blockchain in the world are only increasing with the result of faster transactions, more transparency, and security as well as reduced costs. The future of blockchain holds limitless potential for various use-cases that can provide superior values to our businesses and our lives.
+        </p>
+        
+        <p className='mt-5'>
+          Who knows, Blockchain may change the world in the future!
+        </p>
+      </>
+    )
+  }
   
-  {
+  if(browser){
     setTimeout(() => {
 
       anime({
@@ -65,9 +94,9 @@ export default function Themes() {
       
       <div id="themes" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
 
-        <ThemeCard heading="Web Developement" content={webdev()}/>
-        <ThemeCard heading="Machine Learning" content={webdev()}/>
-        <ThemeCard heading="Blockchain" content={webdev()}/>
+        <ThemeCard heading="Web-Dev" content={webdev()}/>
+        <ThemeCard heading="Machine Learning" content={ai()}/>
+        <ThemeCard heading="Blockchain" content={block()}/>
 
       </div>
 
