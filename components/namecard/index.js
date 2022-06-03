@@ -23,7 +23,7 @@ export default function Namecard({name, position, cover, dp, github, insta, link
                       <a href={"https://instagram.com/" + insta} target="_blank"><FaInstagram/></a>
                     </div>
                     <div className="p-4 border-t mx-8 mt-2">
-                      <div className="w-4/5 block mx-auto text-center rounded-full bg-gray-900 hover:shadow-lg font-semibold text-white px-6 py-2">{club}</div>
+                      <div className="w-4/5 block mx-auto text-center rounded-full bg-gray-900 hover:shadow-lg font-semibold text-white px-4 py-2">{club}</div>
                     </div>
                   </div>
                 </>
