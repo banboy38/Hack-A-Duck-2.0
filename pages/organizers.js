@@ -79,7 +79,7 @@ export default function Organizers(){
                 <div className=' gap-x-6 grid lg:grid-cols-2 xl:grid-cols-3'>
                     <Namecard name="Anirban Aditya Halder" github="banboy38" linkedin="anirban-aditya-halder" insta="banboy38" position="Executive Member" club="SDS" dp='banboy.png'/>
                     <Namecard name="Rahul Raj Soren" github="Roninraj" linkedin="rahul-raj-soren-082a98194" insta="_rahul.soren_" position="Frontend Developer" club="BIT" dp='ronin.png'/>
-                    <Namecard name="Gunjan Kumari" github="" linkedin="" insta="gunjan_k18" position="Content Writer" club="IET" dp='gunjan.jpg'/>
+                    <Namecard name="Gunjan Kumari" github="" linkedin="gunjan-kumari-851a53230" insta="gunjan_k18" position="Content Writer" club="SDS" dp='gunjan.jpg'/>
                 </div>
             </div>
         </>

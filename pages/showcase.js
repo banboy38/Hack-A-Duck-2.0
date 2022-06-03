@@ -2,6 +2,7 @@ import anime from 'animejs';
 import { useEffect, useState } from 'react'
 import Navbar from '../components/navbar/navbar';
 import { BsChevronDoubleDown } from 'react-icons/bs';
+import {IoCaretForward} from 'react-icons/io5'
 import Head from 'next/head';
 import PhotoComp from '../components/photocomp';
 
@@ -48,14 +49,26 @@ export default function Showcase(){
                     <a href="#showcase"><BsChevronDoubleDown className='fadedown hidden sm:block' color='#F2F2F2' fontSize="10rem"/></a>      
 
                 </div>
+
+
+                
                 
 
-                <div id="showcase" className=' flex justify-center mt-[10rem] py-[5rem] '>
-                    <div className='flex flex-col gap-y-16 max-w-[20rem] sm:max-w-sm ms:max-w-md lg:max-w-lg xl:max-w-xl'>
+                <div id="showcase" className=' flex justify-center -mt-10 sm:mt-[10rem] py-[5rem] '>
+                    <div className='flex flex-col max-w-[20rem] sm:max-w-sm ms:max-w-md lg:max-w-lg xl:max-w-xl gap-y-40 sm:gap-y-52'>
+                        
+                        <PhotoComp pic='/Cosmicproj.png' heading="Cosmic" textcolor="text-pink-400"/>
                         <PhotoComp pic='/dudwitproj.png' heading="Dudwit" textcolor="text-cyan-400"/>
-                        {/* <PhotoComp/> */}
+                        <PhotoComp pic='/yehbhitheekhaiproj.png' heading="Yeh Bhi Theek Hai" textcolor="text-yellow-400"/>
+                        <PhotoComp pic='/codemonkproj.png' heading="Code Monk" textcolor="text-pink-600"/>
+                        <PhotoComp pic='/lemonerdproj.png' heading="Lemonerd" textcolor="text-pink-200"/>                  
+                        <PhotoComp pic='/troubleshootersproj.png' heading="Trouble Shooters" textcolor="text-green-400"/>                      
+                        <PhotoComp pic='/skywaveproj.png' heading="Sky Wave" textcolor="text-red-400"/>
+                        
                     </div>
                 </div>
+
+                <p className='mt-[5rem] pb-20  ml-20 sm:ml-0 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./organizers">Our Team</a></p>
             </div>
         </>
     )

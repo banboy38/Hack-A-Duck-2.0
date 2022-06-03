@@ -15,7 +15,7 @@ export default function PhotoComp({pic, heading, textcolor}){
     if(browser){
         return(
             <div className={"imgcomp " + textcolor}>
-                <img cheight="450px" width="800px" src={pic}/>
+                <img cheight="500px" width="850px" src={pic}/>
                 <p className="overtext">{heading}</p>
             </div>
         )
