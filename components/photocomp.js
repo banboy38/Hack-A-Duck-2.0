@@ -3,7 +3,7 @@ import Image from "next/image"
 
 // import dudwit from '../public/dudwitproj.png'
  
-export default function PhotoComp({pic, heading, textcolor}){
+export default function PhotoComp({pic, heading, textcolor, url}){
 
     const [browser, setbrowser] = useState(false)
 
@@ -14,10 +14,10 @@ export default function PhotoComp({pic, heading, textcolor}){
 
     if(browser){
         return(
-            <div className={"imgcomp " + textcolor}>
+            <a href={url} target="_blank" className={"imgcomp " + textcolor}>
                 <img height="500px" width="850px" src={pic}/>
                 <p className="overtext">{heading}</p>
-            </div>
+            </a>
         )
     }
     

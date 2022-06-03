@@ -57,7 +57,7 @@ export default function Showcase(){
                 <div id="showcase" className=' flex justify-center -mt-10 sm:mt-[10rem] py-[5rem] '>
                     <div className='flex flex-col max-w-[20rem] sm:max-w-sm ms:max-w-md lg:max-w-lg xl:max-w-xl gap-y-40 sm:gap-y-52'>
                         
-                        <PhotoComp pic='/Cosmicproj.png' heading="Cosmic" textcolor="text-pink-400"/>
+                        <PhotoComp pic='/Cosmicproj.png' heading="Cosmic" textcolor="text-pink-400" url="http://tidbits.rf.gd"/>
                         <PhotoComp pic='/dudwitproj.png' heading="Dudwit" textcolor="text-cyan-400"/>
                         <PhotoComp pic='/yehbhitheekhaiproj.png' heading="Yeh Bhi Theek Hai" textcolor="text-yellow-400"/>
                         <PhotoComp pic='/codemonkproj.png' heading="Code Monk" textcolor="text-pink-600"/>
