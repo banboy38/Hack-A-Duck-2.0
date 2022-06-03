@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react'
 import Navbar from '../components/navbar/navbar';
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import Head from 'next/head';
+import PhotoComp from '../components/photocomp';
+
+import dudwit from '../public/dudwitproj.png'
 
 export default function Showcase(){
 
@@ -47,8 +50,11 @@ export default function Showcase(){
                 </div>
                 
 
-                <div>
-                    
+                <div id="showcase" className=' flex justify-center mt-[10rem] py-[5rem] '>
+                    <div className='flex flex-col gap-y-16 max-w-[20rem] sm:max-w-sm ms:max-w-md lg:max-w-lg xl:max-w-xl'>
+                        <PhotoComp pic='/dudwitproj.png' heading="Dudwit" textcolor="text-cyan-400"/>
+                        {/* <PhotoComp/> */}
+                    </div>
                 </div>
             </div>
         </>

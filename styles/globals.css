@@ -107,3 +107,43 @@ a {
   min-height: 300vh;
 
 }
+/* ========================================================= */
+
+.overtext{
+  position: relative;
+  bottom:75px;
+  right: 80px;
+  font-size: 5rem;
+  font-weight: 800;
+
+  transition: all 500ms ease-in-out;
+ 
+}
+
+@media(max-width:425px) {
+  .overtext{
+    position : static;
+    font-size: 3rem;
+    transition: none;
+  }
+}
+
+.imgcomp:hover .overtext{
+  transform: scale(1.5);
+
+  bottom:50px;
+  /* left:600px; */
+  right: 50px;
+
+}
+
+.imgcomp:hover img{
+
+  transform: scale(0.8);
+
+}
+
+.imgcomp>img{
+  transition: all 500ms ease-in-out;
+
+}
