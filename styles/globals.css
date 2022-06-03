@@ -97,3 +97,13 @@ a {
     opacity: 1;
   }
 }
+
+.yolo{
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../public/about.jpg");
+  min-height: 300vh;
+
+}
