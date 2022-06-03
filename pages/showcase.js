@@ -63,7 +63,7 @@ export default function Showcase(){
                         <PhotoComp pic='/codemonkproj.png' heading="Code Monk" textcolor="text-pink-600" />
                         <PhotoComp pic='/lemonerdproj.png' heading="Lemonerd" textcolor="text-pink-200" url={"https://hack-a-duck.github.io/Lemonerd2.0/"} />                  
                         <PhotoComp pic='/troubleshootersproj.png' heading="Trouble Shooters" textcolor="text-green-400" url={"https://groc4-all.herokuapp.com/"}/>                      
-                        <PhotoComp pic='/skywaveproj.png' heading="Sky Wave" textcolor="text-red-400" url={"pacific-fortress-40879.herokuapp.com/"}/>
+                        <PhotoComp pic='/skywaveproj.png' heading="Sky Wave" textcolor="text-red-400" url={"https://pacific-fortress-40879.herokuapp.com/"}/>
                         
                     </div>
                 </div>
