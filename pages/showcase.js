@@ -58,12 +58,12 @@ export default function Showcase(){
                     <div className='flex flex-col max-w-[20rem] sm:max-w-sm ms:max-w-md lg:max-w-lg xl:max-w-xl gap-y-40 sm:gap-y-52'>
                         
                         <PhotoComp pic='/Cosmicproj.png' heading="Cosmic" textcolor="text-pink-400" url="http://tidbits.rf.gd"/>
-                        <PhotoComp pic='/dudwitproj.png' heading="Dudwit" textcolor="text-cyan-400"/>
-                        <PhotoComp pic='/yehbhitheekhaiproj.png' heading="Yeh Bhi Theek Hai" textcolor="text-yellow-400"/>
-                        <PhotoComp pic='/codemonkproj.png' heading="Code Monk" textcolor="text-pink-600"/>
-                        <PhotoComp pic='/lemonerdproj.png' heading="Lemonerd" textcolor="text-pink-200"/>                  
-                        <PhotoComp pic='/troubleshootersproj.png' heading="Trouble Shooters" textcolor="text-green-400"/>                      
-                        <PhotoComp pic='/skywaveproj.png' heading="Sky Wave" textcolor="text-red-400"/>
+                        <PhotoComp pic='/dudwitproj.png' heading="Dudwit" textcolor="text-cyan-400" url="http://blogbower.herokuapp.com/"/>
+                        <PhotoComp pic='/yehbhitheekhaiproj.png' heading="Yeh Bhi Theek Hai" textcolor="text-yellow-400" url={"https://ratatouille-foodorder.herokuapp.com/"}/>
+                        <PhotoComp pic='/codemonkproj.png' heading="Code Monk" textcolor="text-pink-600" />
+                        <PhotoComp pic='/lemonerdproj.png' heading="Lemonerd" textcolor="text-pink-200" url={"https://hack-a-duck.github.io/Lemonerd2.0/"} />                  
+                        <PhotoComp pic='/troubleshootersproj.png' heading="Trouble Shooters" textcolor="text-green-400" url={"https://groc4-all.herokuapp.com/"}/>                      
+                        <PhotoComp pic='/skywaveproj.png' heading="Sky Wave" textcolor="text-red-400" url={"pacific-fortress-40879.herokuapp.com/"}/>
                         
                     </div>
                 </div>
