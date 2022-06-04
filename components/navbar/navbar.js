@@ -31,7 +31,7 @@ export default function Navbar(){
             }
             return(
                 <>
-                    <div className="fixed z-20 top-0 right-0 h-[100vh] w-[6rem] flex place-content-center">
+                    <div className="fixed z-20 top-0 right-0 h-[100vh] w-[3rem] flex place-content-center">
                         <div className='text-primaryAccent flex flex-col place-content-center justify-around text-md '>
                             <a id="homebutton" href="./" className="rotate-90 decoration-2">Home</a>
                             {/* <a id="aboutbutton" href="./about" className="rotate-90 decoration-2">About</a> */}

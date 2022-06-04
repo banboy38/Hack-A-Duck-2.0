@@ -6,7 +6,7 @@ export default function Namecard({name, position, cover, dp, github, insta, link
 
             return(
                 <>
-                   <div className="max-w-2xl shadow-md mb-5 mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white rounded-lg text-gray-900 hover:scale-[1.03] duration-500 ease-in-out">
+                   <div className=" w-[15rem] xs:w-auto max-w-sm shadow-md mb-5 mx-4   sm:mx-auto mt-16 bg-white rounded-lg text-gray-900 hover:scale-[1.03] duration-500 ease-in-out">
                     <div className="rounded-t-lg h-32 overflow-hidden">
                       <img className="object-cover object-top w-full" src="./contact.png" alt='cover photo'></img>
                     </div>

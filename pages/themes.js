@@ -93,16 +93,15 @@ export default function Themes() {
 
       </div> 
       
-      <div id="themes" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
+      <div id="themes" className="flex flex-col place-items-center md:place-items-start p-[2rem] md:p-[2rem]  w-screen min-h-screen"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
 
         <ThemeCard heading="Web-Dev" content={webdev()}/>
         <ThemeCard heading="ML/AI" content={ai()}/>
         <ThemeCard heading="Blockchain" content={block()}/>
 
-
-        <p className='mt-[5rem] pb-14 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-5xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
-
       </div>
+
+      <p className='mt-[5rem] pb-14 p-10 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-5xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
 
       
 

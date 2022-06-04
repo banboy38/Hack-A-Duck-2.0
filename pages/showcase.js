@@ -68,7 +68,7 @@ export default function Showcase(){
                     </div>
                 </div>
 
-                <p className='mt-[5rem] pb-20 ml-10 md:mr-[3rem] sm:ml-0 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./organizers">Our Team</a></p>
+                <p className='mt-[5rem] pb-20 ml-5 md:mr-[3rem] sm:ml-0 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./organizers">Our Team</a></p>
             </div>
         </>
     )

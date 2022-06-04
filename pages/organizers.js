@@ -49,7 +49,7 @@ export default function Organizers(){
             </div>
 
             <div className='py-20 px-16 sm:px-20 bg-fixed bg-center bg-cover bg-[url("../public/org.png")]'>
-                <div id="organizers" className=' gap-x-6 grid lg:grid-cols-2 xl:grid-cols-3'>
+                <div id="organizers" className=' gap-x-6 grid place-content-center lg:grid-cols-2 xl:grid-cols-3'>
                     
                     <Namecard name="Vibhu Bhatia" github="vibhubhatia007" linkedin="vibhu-bhatia" insta="vibhu.669" position="Founder" club="Psyberduck" dp='vibhu.jpg'/>
                     <Namecard name="Tanay Goel" github="" linkedin="tanay-goel-311678194" insta="goel.tanay" position="Founder" club="Psyberduck" dp='tanaypsy.jpg'/>

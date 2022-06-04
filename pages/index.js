@@ -76,7 +76,7 @@ export default function Home() {
 
       </div> */}
       
-      <div className='absolute left-6 top-10 flex-wrap xs:w-[100%] flex flex-row place-items-center'>
+      <div className='absolute left-6 top-10 flex-wrap flex flex-row place-items-center'>
         <Image placeholder='blur' height="70" width="100" quality="100" src={iet}/>
         <Image placeholder='blur' height="70" width="70" quality="100" src={bit}/>
         <Image placeholder='blur' quality="100" height="50" width="150" src={sds}/>
@@ -94,8 +94,8 @@ export default function Home() {
 
       </div> 
       
-      <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about2.png')] sm:bg-[url('../public/about3.png')]"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
-        <div className="text-7xl md:text-8xl  font-extrabold break-words"> {/*text-cyan-300*/}
+      <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about2.png')] sm:bg-[url('../public/about3.png')]"> 
+        <div className="text-7xl md:text-8xl  font-extrabold break-words"> 
           "Bhaiya, yeh kya hai? 🤨"
         </div>
 
