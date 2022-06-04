@@ -20,7 +20,7 @@ export default function ContactCard({club, logo='iet.png', mail, insta, linkd}){
                     </div>
                     <div>
                         <div className="px-6 py-4">
-                            <div className=" text-3xl md:text-4xl mb-2">{club}</div>
+                            <div className=" text-2xl md:text-4xl mb-2">{club}</div>
                             <p className=" flex flex-row gap-3 mt-5 font-bold text-sm md:text-2xl">
                                 <a href={mail} target="_blank"><ImMail3/></a>
                                 <a href={insta} target="_blank"><ImInstagram/></a>
