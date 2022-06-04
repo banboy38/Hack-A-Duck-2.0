@@ -75,7 +75,7 @@ export default function About() {
 
           <div id='contact' className='pt-20 grid gap-20 grid-cols-1 '>
             <ContactCard logo='/iet2.png' club="IET, BIT Mesra" mail="mailto:iet@bitmesra.ac.in" insta="https://www.instagram.com/ietbitmesra" linkd="https://www.linkedin.com/company/iet-on-campus-bit-mesra"/>
-            <ContactCard logo='/sds.png' club="Society for Data Science, BIT Mesra" mail="mailto:sds@bitmesra.ac.in" insta="https://www.instagram.com/sds.bitm/" linkd="https://www.linkedin.com/company/society-for-data-science-bit-mesra"/>
+            <ContactCard logo='/SDS2.png' club="Society for Data Science, BIT Mesra" mail="mailto:sds@bitmesra.ac.in" insta="https://www.instagram.com/sds.bitm/" linkd="https://www.linkedin.com/company/society-for-data-science-bit-mesra"/>
             <ContactCard logo='/theDuck.png' club="Psyberduck" mail="mailto:teampsyberduck@gmail.com" insta="https://www.instagram.com/psyber_duck/" linkd="https://www.linkedin.com/company/psyberduck/"/>
           </div>
         
