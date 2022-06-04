@@ -96,7 +96,7 @@ export default function Home() {
       
       <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about2.png')] sm:bg-[url('../public/about3.png')]"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
         <div className="text-7xl md:text-8xl  font-extrabold break-words"> {/*text-cyan-300*/}
-          "Bhaiya, yeh kya hai?"
+          "Bhaiya, yeh kya hai? 🤨"
         </div>
 
         <div className="text-2xl md:text-4xl ml-[4px] mr-[5rem] md:ml-[10px] mt-5 md:mt-10 font-extrabold break-normal">

@@ -16,7 +16,8 @@ export default function Navbar(){
             if(router.route != "/")
             {
                     setTimeout(() => {
-
+                    
+                    // console.log(router.route.slice(1,)+"button")
                     document.getElementById(router.route.slice(1,)+"button").classList.add("line-through")
                     
                     }, 0);
