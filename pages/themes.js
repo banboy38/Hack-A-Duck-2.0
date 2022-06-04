@@ -96,7 +96,7 @@ export default function Themes() {
       <div id="themes" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
 
         <ThemeCard heading="Web-Dev" content={webdev()}/>
-        <ThemeCard heading="Machine Learning" content={ai()}/>
+        <ThemeCard heading="ML/AI" content={ai()}/>
         <ThemeCard heading="Blockchain" content={block()}/>
 
 
