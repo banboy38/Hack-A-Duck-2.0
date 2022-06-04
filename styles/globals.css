@@ -142,6 +142,8 @@ a {
 .imgcomp:hover img{
 
   transform: scale(0.9);
+  /* filter: contrast(110%); */
+  /* filter: brightness(110%); */
 
 }
 
