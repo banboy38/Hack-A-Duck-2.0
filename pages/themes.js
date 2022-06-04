@@ -101,7 +101,7 @@ export default function Themes() {
 
       </div>
 
-      <p className='mt-[5rem] pb-14 p-10 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-5xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
+      <p className='mt-[rem] pb-14 p-10 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-5xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
 
       
 
