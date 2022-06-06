@@ -93,6 +93,14 @@ export default function Themes() {
 
       </div>
 
+      {/* <div className='p-[2.5rem] text-[0.5rem] text-center sm:text-left sm:text-xl'>
+        <p>
+          <span className='font-extrabold'>NOTE</span> : The registered teams will fill in their preference for the problem statement and the shortlisted teams for the various problem statements would be further informed about the more details and mentorship.
+        </p>
+          Make sure you have filled the below form for the preference of your Prob Statement. 
+          <p><span className='font-extrabold'>Form Link</span> : <a href='https://bit.ly/ps_hackaduck' target="_blank">bit.ly/ps_hackaduck</a></p>
+      </div> */}
+
       <p className='mt-[rem] pb-14 p-10 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-3xl md:text-5xl font-bold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
 
       
