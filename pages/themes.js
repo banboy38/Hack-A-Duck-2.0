@@ -18,27 +18,21 @@ export default function Themes() {
       setbrowser(true)
     }, [])
 
-  const webdev = () => {
+  const hiringportal = () => {
     return(
       <>
-        <p>Web development is the building & maintanence of websites, it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
-
-        <p className='mt-5'>Web development is future proof!</p>
-        <p>As we head towards an even more tech-driven future, the development skills are progressively in demand. Web development is constantly evolving with advancements in technology. 
-        Seeing the fast paced nature of industry and of course the competition, it's important to stay updated with the latest technology and tools to always stay at your best.</p>
+        <p>The portal must have multiple dashboards based upon the user credentials. For one dashboard, it must allow the user to upload CV, apply for the various opportunities and others. For the other dashboard, it must allow the user to post the opportunities with various filters and shall be able to provide some administrative rights to some users so that the opportunity can be edited. There shall be one feature that must allow the user to fill in required details asked and then send the same for the approvals. </p>
       </>
     )
   }
 
-  const ai = () => {
+  const score = () => {
     return(
       <>
-       <p className='italic'>"AI is going to change the world more than anything in the history of mankind. More than electricity." - Dr. Kai- Fu Lee</p>
-        <p className='mt-5'>The term "AI" means a programme which mimics human cognition. It is the ability of a computer program to think and learn. 
-        At present we use the term AI for successfully understanding human speech, competing at a high level in strategic game system. 
-        AI has many applications in almost every field, which seems positive. We use Alexa , Google home even which are quite intuitive to the instructions and provide almost accurate result , also playing a very important role in pharmaceuticals.</p>
-
-        <p className='mt-5'>Predicting the future isn't magic, it's Artificial intelligence.</p>
+        <p>The candidate shall be provided with the data sources and further he must be able to create the dataset from the same by web scraping.
+        Based upon the dataset, the candidate must use various algorithms to predict the future score based upon the historical dataset.
+        For prediction, there shall be various data input fields, with restrictions by providing privileges to specific sets of people who can enter data in which field.
+        </p>
       </>
     )
   }
@@ -46,14 +40,11 @@ export default function Themes() {
   const block = () => {
     return(
       <>
-        <p className='italic'>“The Internet is programmable information. The blockchain is programmable scarcity.” – Balaji Srinivasan</p>
-        <p className='mt-5'>
-          A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems.
-          The applications of Blockchain in the world are only increasing with the result of faster transactions, more transparency, and security as well as reduced costs. The future of blockchain holds limitless potential for various use-cases that can provide superior values to our businesses and our lives.
-        </p>
         
-        <p className='mt-5'>
-          Who knows, Blockchain may change the world in the future!
+        <p>
+        The candidates are expected to build an online platform where multiple quizzes and coding tests can be hosted and also it can be evaluated as well on the same platform.
+        The platform must be compatible and must allow the user to use any specific language for participating in the contest hosted on the platform
+
         </p>
       </>
     )
@@ -88,20 +79,21 @@ export default function Themes() {
       <div className='mt-[-5rem]  mb-[5rem] md:mt-[3.7rem] come p-[2rem] md:p-[3rem] w-screen z-0 h-screen flex flex-col justify-center place-items-center'>
       
 
-        <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[4rem] text-7xl md:text-8xl break-words'>Themes 🎨</div>
+        <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[4rem] text-5xl md:text-8xl break-words'>Themes 🎨</div>
         <a href="#themes"><BsChevronDoubleDown className='fadedown hidden sm:block' color='#F2F2F2' fontSize="10rem"/></a>      
 
       </div> 
       
       <div id="themes" className="flex flex-col place-items-center md:place-items-start p-[2rem] md:p-[2rem]  w-screen min-h-screen"> {/*bg-fixed bg-center bg-cover bg-[url('../public/psyberduck.png')]*/}
 
-        <ThemeCard heading="Web-Dev" content={webdev()}/>
-        <ThemeCard heading="ML/AI" content={ai()}/>
-        <ThemeCard heading="Blockchain" content={block()}/>
+        <ThemeCard heading="Hiring Portal" content={hiringportal()}/>
+        <ThemeCard heading="Score Predictor" content={score()}/>
+        <ThemeCard heading="CP Platform" content={block()}/>
+        <ThemeCard heading="Business Communication Platform" content={block()}/>
 
       </div>
 
-      <p className='mt-[rem] pb-14 p-10 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-5xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
+      <p className='mt-[rem] pb-14 p-10 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-3xl md:text-5xl font-bold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./showcase">Previous Winners' Projects</a></p>
 
       
 

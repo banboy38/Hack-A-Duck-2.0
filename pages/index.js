@@ -76,17 +76,18 @@ export default function Home() {
 
       </div> */}
       
-      <div className='absolute left-6 top-10 flex-wrap flex flex-row place-items-center'>
+      <div className='absolute top-0 left-0 w-[70%]'>
+      <div className='p-5 w-full flex flex-row justify-start place-items-center'>
         <Image placeholder='blur' height="70" width="100" quality="100" src={iet}/>
         <Image placeholder='blur' height="70" width="70" quality="100" src={bit}/>
         <Image placeholder='blur' quality="100" height="50" width="150" src={sds}/>
       </div>
-
+      </div>
       
       <div className='mt-[-5rem]  mb-[5rem] md:mt-[3.7rem] come p-[2rem] md:p-[3rem] w-screen z-0 h-screen flex flex-col justify-center place-items-center'>
       
 
-        <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[10rem] xs:mt-[4rem] text-7xl md:text-8xl break-words'>
+        <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold mt-[10rem] xs:mt-[4rem] text-5xl md:text-8xl break-words'>
             <span className='mr-5'>Hack-A-Duck 2.0</span>
             <Image placeholder='blur' height="120" width="100" src={psyduck}/>
         </div>
@@ -95,14 +96,14 @@ export default function Home() {
       </div> 
       
       <div id="about" className="flex flex-col p-[2rem] md:p-[2rem] w-screen min-h-screen bg-fixed bg-center bg-cover bg-[url('../public/about2.png')] sm:bg-[url('../public/about3.png')]"> 
-        <div className="text-7xl md:text-8xl  font-extrabold break-words"> 
+        <div className="text-5xl md:text-8xl  font-extrabold break-words"> 
           "Bhaiya, yeh kya hai? 🤨"
         </div>
 
-        <div className="text-xl md:text-4xl ml-[4px] mr-[5rem] md:ml-[10px] mt-5 md:mt-10 font-extrabold break-normal">
+        <div className="text-xl md:text-4xl ml-[4px] mr-[5rem] md:ml-[10px] mt-5 md:mt-10 font-semibold sm:font-bold break-normal">
           <p>Hack-A-Duck 2.0 is the second edition of the premier hackathon organized by Psyberduck. This time, we're collaborating with IET and Society for Data Science, BIT Mesra.</p>
           <p className='mt-5'>So calling all the tech enthusiasts out there, this is the chance to enrich your technical ingenuity through a gripping project with highly qualified mentors and awesome cash prizes. There's a theme for every discipline, so no need to worry about being left out!</p>          
-          <p className='mt-[5rem] md:mt-[7rem]  hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./themes">Checkout the Themes!</a></p>
+          <p className='font-bold mt-[5rem] md:mt-[7rem]  hover:tracking-widest ease-in-out duration-500 text-3xl md:text-6xl flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./themes">Checkout the Themes!</a></p>
         </div>
         
         

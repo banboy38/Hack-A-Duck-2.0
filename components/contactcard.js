@@ -15,7 +15,7 @@ export default function ContactCard({club, logo='iet.png', mail, insta, linkd}){
         return(
             <>
                 <div className="max-w-screen md:h-[20rem] break-words flex flex-col md:flex-row rounded overflow-hidden font-extrabold bg-[#212121] sm:bg-[url('/theme2.png')] shadow-lg hover:scale-[1.03] duration-500 ease-in-out">
-                    <div className="p-6 bg-gray-300 h-[15rem] custom:h-full w-full md:w-[20rem] flex flex-col place-content-center justify-center  ">
+                    <div className="p-6 bg-[f2f2f2] h-[15rem] custom:h-full w-full md:w-[20rem] flex flex-col place-content-center justify-center  ">
                         <img className="w-auto h-auto" src={logo} alt="logo"/>
                     </div>
                     <div>

@@ -45,7 +45,7 @@ export default function Showcase(){
                 <div className= 'mt-[-5rem]  mb-[5rem]  come p-[2rem] md:p-[3rem] w-screen z-0 h-screen flex flex-col justify-center place-items-center '>
         
 
-                    <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold sm:mt-[20rem] text-7xl md:text-8xl break-words'>Showcase 📽️</div>
+                    <div className='md:mb-[4rem] hover:tracking-widest ease-in-out duration-500 font-extrabold sm:mt-[20rem] text-5xl md:text-8xl break-words'>Showcase 📽️</div>
                     <a href="#showcase"><BsChevronDoubleDown className='fadedown hidden sm:block' color='#F2F2F2' fontSize="10rem"/></a>      
 
                 </div>
@@ -68,7 +68,7 @@ export default function Showcase(){
                     </div>
                 </div>
 
-                <p className='mt-[5rem] pb-20 ml-5 md:mr-[3rem] sm:ml-0 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl font-extrabold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./organizers">Our Team</a></p>
+                <p className='mt-[5rem] pb-20 ml-5 md:mr-[3rem] sm:ml-0 sm:pr-20 hover:tracking-widest ease-in-out duration-500 text-4xl md:text-6xl font-bold flex md:justify-end'><IoCaretForward className='md:mt-[5px]' /><a href="./organizers">Our Team</a></p>
             </div>
         </>
     )
