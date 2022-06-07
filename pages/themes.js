@@ -49,6 +49,14 @@ export default function Themes() {
       </>
     )
   }
+
+  const bcom = () => {
+    return(
+      <>
+        The platform must have an interface that allows the user to do audio, video chats and must also support the group chat features.
+      </>
+    )
+  }
   
   if(browser){
     setTimeout(() => {
@@ -89,7 +97,7 @@ export default function Themes() {
         <ThemeCard heading="Hiring Portal" content={hiringportal()}/>
         <ThemeCard heading="Score Predictor" content={score()}/>
         <ThemeCard heading="CP Platform" content={block()}/>
-        <ThemeCard heading="Business Communication Platform" content={block()}/>
+        <ThemeCard heading="Business Communication Platform" content={bcom()}/>
 
       </div>
 
