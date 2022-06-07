@@ -53,7 +53,7 @@ export default function Themes() {
   const bcom = () => {
     return(
       <>
-        The platform must have an interface that allows the user to do audio, video chats and must also support the group chat features.
+        <p>The platform must have an interface that allows the user to do audio, video chats and must also support the group chat features.</p>
       </>
     )
   }
