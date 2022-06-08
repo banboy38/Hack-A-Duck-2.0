@@ -57,6 +57,15 @@ export default function Themes() {
       </>
     )
   }
+
+  const register = () => {
+    return(
+      <>
+        <p><span className='font-extrabold'>Registration Form :</span> <a className='underline' href="https://bit.ly/hackaduck_22" target="_blank">https://bit.ly/hackaduck_22</a></p>
+        <p><span className='font-extrabold'>Problem Statement Form :</span> <a className='underline' href="https://bit.ly/ps_hackaduck" target="_blank">https://bit.ly/ps_hackaduck</a></p>
+      </>
+    )
+  }
   
   if(browser){
     setTimeout(() => {
@@ -98,6 +107,14 @@ export default function Themes() {
         <ThemeCard heading="Score Predictor" content={score()}/>
         <ThemeCard heading="CP Platform" content={block()}/>
         <ThemeCard heading="Business Communication Platform" content={bcom()}/>
+
+        <div className="fuckthisshit bg-[#212121] xs:bg-[url('/theme2.png')] hover:scale-[1.03] my-14 ease-in-out duration-500 rounded-md p-3 py-5 w-[80%] shadow-lg min-h-[10rem]">
+            {/* <p className="font-extrabold text-3xl md:text-6xl underline">{heading}</p> */}
+            <p className="hover:translate-x-2 duration-500 ease-in-out text-sm md:text-2xl ml-[4px]  md:ml-[10px] mt-2 md:mt-5 break-normal">
+                {register()}
+            </p>
+        </div>
+        
 
       </div>
 
