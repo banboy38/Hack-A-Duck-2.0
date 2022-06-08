@@ -62,7 +62,7 @@ export default function Themes() {
     return(
       <>
         <p><span className='font-extrabold'>Registration Form :</span> <a className='underline' href="https://bit.ly/hackaduck_22" target="_blank">https://bit.ly/hackaduck_22</a></p>
-        <p><span className='font-extrabold'>Problem Statement Form :</span> <a className='underline' href="https://bit.ly/ps_hackaduck" target="_blank">https://bit.ly/ps_hackaduck</a></p>
+        <p><span className='font-extrabold'>Problem Statements Form :</span> <a className='underline' href="https://bit.ly/ps_hackaduck" target="_blank">https://bit.ly/ps_hackaduck</a></p>
       </>
     )
   }
